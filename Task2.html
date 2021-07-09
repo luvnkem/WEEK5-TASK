@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="./Task2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="regForm">
+        <h1>REGISTRATION FORM</h1>
+        <form action="" name="form">
+            <div>
+                <label for="fname">First Name</label><br>
+                <input type="text" name="fname" required minlength="8" maxlength="12" placeholder="First Name"><br>
+            </div>
+            <div>
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" required minlength="8" maxlength="12" placeholder="Last Name"><br>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" placeholder="Email" required><br>
+            </div>
+            <div>
+                <label for="username">Username</label><br>
+                <input type="text" name="username" placeholder="User Name" required><br>
+            </div>
+            <div>
+                <label for="p1">Password</label><br>
+                <input type="text" name="p1" placeholder="Password" required maxlength=""><br>
+            </div>
+            <div>
+                <label for="p2">Retype Password</label><br>
+                <input type="text" name="p2" placeholder="Password Again!" required maxlength=""><br>
+            </div>
+            <div>
+                <button id="submit">SUBMIT</button>
+            </div>   
+        </form>
+    </section>
+
+    <script src="./Task2.js"></script>
+</body>
+</html>

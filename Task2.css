@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 104, 131);
+}
+
+.regForm {
+    background-color: rgb(241, 229, 229);
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+form div {
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(77, 65, 49);
+}
+
+form div input {
+    border: 2px solid tan;
+    border-radius: 3px;
+}
+
+#submit {
+    border: 2px solid rgb(83, 72, 56);
+    border-radius: 3px;
+    padding: 20px 40px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: tan;
+    letter-spacing: 8px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(83, 72, 56);
+}
